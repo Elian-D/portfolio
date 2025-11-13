@@ -1,0 +1,103 @@
+:root {
+    /* ----- Tipografía ----- */
+    --font-family: 'Poppins', sans-serif;
+    --font-size-small: 0.75rem; /* 12px */
+    --font-size-medium: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-large: 1.125rem; /* 18px */
+    --font-size-xlarge: 1.25rem; /* 20px */
+    --font-size-xxlarge: 1.5rem; /* 24px */
+    --font-size-xxxlarge: 1.875rem; /* 30px */
+
+    /* ----- Tamaños / Dimensiones ----- */
+    --navbar-width-closed: 2.1875rem; /* 35px */
+    --navbar-width-open: 12.5rem; /* 200px */
+    --navbar-radius: 1.25rem; /* 20px */
+    --navbar-radius-open: 0 2.5rem 2.5rem 0; /* 0 40px 40px 0 */
+    --icon-size: 1.125rem; /* 18px */
+    --icon-large: 3.125rem; /* 50px */
+    --logo-width: 7.5rem; /* 120px */
+    --logo-height: 2.375rem; /* 38px */
+    --title-size: 2.5rem; /* 40px */
+
+
+    /* ----- Radios ----- */
+    --radius: 0.75rem; /* 12px */
+    --radius-small: 0.5rem; /* 8px */
+    --radius-short: 0.25rem; /* 4px */
+    --navbar-radius: 1.25rem; /* 20px */
+
+    /* ----- Espaciados ----- */
+
+    /* ======= GAP ======= */
+    --gap-mini: .625rem; /* 10px */
+    --gap-short: .75rem; /* 12px */
+    --gap-small: .875rem; /* 14px */
+    --gap-base: 1rem; /* 16px */
+    --gap-medium: 1.25rem; /* 20px */
+    --gap-large: 1.5rem; /* 24px */
+    --gap-xlarge: 1.875rem; /* 30px */
+    --gap-xxlarge: 2.5rem; /* 40px */
+    --gap-xxxlarge: 3.125rem; /* 50px */
+    --gap-xxxxlarge: 3.75rem; /* 60px */
+    --gap-xxxxxlarge: 4.375rem; /* 70px */
+
+
+    /* ======= PADDING ======= */
+    --padding-xxxxlarge: 6.25rem;   /* 100px */
+    --padding-xxlarge:   2.1875rem; /* 35px */
+    --padding-xlarge:    1.875rem;  /* 30px */
+    --padding-large:     1.25rem;   /* 20px */
+    --padding-xsmall:    0.25rem;   /* 4px */
+    --padding-short:     0.25rem 0.625rem; /* 4px 10px */
+    --padding-mini:      0.375rem 0.75rem; /* 6px 12px */
+    --padding-base:      1.25rem;   /* 20px */
+    --padding-navbar: 1.25rem 0;
+    --padding-open: 1.25rem 0.625rem;
+    --padding-section: 3.75rem 1.25rem;
+}
+
+
+[data-theme="dark"] {
+    /* ----- Fondos ----- */
+    --color-bg: #0e0e0e;
+    --color-bg-primary: #062242;
+    --color-bg-secondary: #10325a;
+    --color-bg-tertiary: #0C2542;
+    --color-bg-transparent: transparent;
+    --color-bg-navbar: rgba(255, 255, 255, 0.4); 
+    --color-bg-navbar-gradient: linear-gradient(139.23deg, rgba(255, 255, 255, 0.4) -10.31%, rgba(255, 255, 255, 0.1) 97.5%);
+    /* ----- Colores ----- */
+    --color-primary: #f69100;
+    --color-hover: #c07000;
+    --color-secondary: #0C2542;
+    --color-text: #ffffff;
+    --color-contrast: #ffffff;
+    --color-contrast-text: #282828;
+    --color-dark: #282828;
+    --color-desc: #b8b8b8;
+    --color-icon: #ffffff;
+}
+
+
+[data-theme="light"] {
+    /* ----- Fondos ----- */
+    --color-bg: #ffffff;
+    --color-bg-primary: #f3f6fb;
+    --color-bg-secondary: #e6edf7;
+    --color-bg-tertiary: #dbe7f5;
+    --color-bg-transparent: transparent;
+    --color-bg-navbar: rgba(255, 255, 255, 0.4); 
+    --color-bg-navbar-gradient: linear-gradient(139.23deg, rgba(255, 255, 255, 0.4) -10.31%, rgba(255, 255, 255, 0.1) 97.5%);
+
+    /* ----- Colores ----- */
+    --color-primary: #f69100;
+    --color-hover: #c07000;
+    --color-secondary: #062242;
+    --color-text: #282828;
+    --color-contrast: #282828;
+    --color-contrast-text: #ffffff;
+    --color-dark: #282828;
+    --color-desc: #666666;
+    --color-icon: #333333;
+}

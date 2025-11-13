@@ -1,0 +1,73 @@
+/* ========== SECCIÓN SUPERIOR ========== */
+.top-element {
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* Box Model */
+    width: calc(100% - 35px);
+    padding: 10px 0 5px 0;
+
+    /* Posicionamiento */
+    top: 0;
+}
+
+/* Íconos SVG */
+.top-element .icon-top {
+    /* Box Model */
+    width: var(--logo-width);
+    height: var(--logo-height);
+
+    /* Layout */
+    flex-shrink: 4;
+}
+
+.top-element__container {
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.top-element__link {
+    /* Box Model */
+    padding: 5px 10px;
+
+    /* Texto */
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+
+    /* Efectos */
+    transition: color 0.3s;
+}
+
+.top-element__link::first-letter {
+    /* Texto */
+    font-size: 18px;
+}
+
+.top-element__link:hover {
+    /* Texto / Efectos */
+    color: var(--color-primary);
+}
+
+.top-element__container-lang {
+    /* Layout */
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-links);
+
+    /* Box Model */
+    height: auto;
+}
+
+.top-element .icon {
+    /* Box Model */
+    max-width: 20px;
+}

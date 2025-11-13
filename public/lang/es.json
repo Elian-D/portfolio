@@ -1,0 +1,93 @@
+{
+    "link-navbar": {
+        "Home": "Inicio",
+        "About": "Sobre mí",
+        "Portfolio":"Portafolio",
+        "Skills": "Habilidades",
+        "Certificates": "Certificados",
+        "ContactME": "Contáctame",
+        "Open Menu": "Abrir Menú"
+    },
+
+    "theme-cv": {
+        "download-CV": "Descargar CV"
+    },
+
+    "top-element": {
+        "Home": "Inicio",
+        "top-element": "Contáctame"
+    },
+
+    "presentation": {
+        "role": "Desarrollador Full Stack",
+        "pagraph-1": "Soy un joven dominicano apasionado por la tecnología y el desarrollo web. Estoy en constante aprendizaje, buscando mejorar mis habilidades día a día para crear proyectos cada vez más profesionales y funcionales.",
+        "pagraph-2-text-1": "Si deseas conocer más sobre mi formación y experiencia, puedes revisar ",
+        "link-1": "mi currículum",
+        "pagraph-2-text-2": " o visitar ",
+        "link-2": "mi perfil de LinkedIn.",
+        "pagraph-2-text-3": "."
+    },
+
+    "about": {
+        "title": "Sobre mí",
+        "text-1": "Desde siempre he tenido una gran <b>atracción</b> por la tecnología; me encantaba aprender todo lo relacionado con computadoras y software, una pasión que heredé de mi padre.",
+        "text-2": "Actualmente estudio desarrollo web, donde profundizo mis conocimientos y <b>habilidades</b> en programación y diseño digital.",
+        "text-3": "En el futuro planeo estudiar <b>Ingeniería en Software</b> en el ITLA y, además, me gusta jugar ajedrez para entrenar mi mente. Puedes jugar conmigo en <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
+        "hobbie-title": "¿Más hobbies?",
+        "hobbie-1": "Resolver cubos Rubik",
+        "hobbie-2": "Hacer ejercicio",
+        "hobbie-3": "Aprender cosas nuevas"
+    },
+
+
+    "skills": {
+        "title": "Herramientas",
+        "language": "Lenguajes y Frameworks",
+        "tool": "Herramientas"
+    },
+
+    "portfolio": {
+        "title": "Portafolio",
+        "project-1": "Página Web Empresarial",
+        "project-2": "Página Web Ecoturismo",
+        "project-3": "Página Web Politécnico",
+        "description": "Descripción",
+        "description-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
+        "description-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
+        "description-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
+        "project-info-1":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
+        "project-info-2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
+        "project-info-3":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
+        "repo": "Ver Repo",
+        "demo": "Ver Demo",
+        "more": "Ver más proyectos"
+    },
+
+    "certificates": {
+        "title": "Certificaciones",
+        "cert1": "Diplomado en Inteligencia de Negocios con Power BI",
+        "cert2": "Administración de Bases de Datos",
+        "cert3": "Programación con Python Intermedio",
+        "cert4": "Fundamentos de Programación en Python",
+        "cert5": "Introducción a la Programación",
+        "btn-certificate": "Ver Certificado"
+    },
+
+    "footer-link": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "portfolio":"Portafolio",
+        "skills": "Habilidades",
+        "certificates": "Certificados",
+        "contact": "Contáctame"
+    },
+
+    "email": {
+        "title": "¡Trabajemos juntos!"
+    },
+
+    "footer-boton": {
+        "top": "Ir arriba",
+        "copy": "Elian Bertre. Todos los derechos reservados."
+    }
+}

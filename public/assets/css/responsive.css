@@ -1,0 +1,331 @@
+/* Tablets grandes y laptops pequeños */
+@media (max-width: 1024px) { 
+
+}
+
+/* Tablets en vertical */
+@media (max-width: 768px) { 
+    
+
+}
+
+/* Celulares grandes */
+@media (max-width: 600px) { 
+    /* ======= VARIABLES ======= */
+    :root{
+        /* ----- Tamaños / Dimensiones ----- */
+    --navbar-width-closed: 90%;
+    --navbar-width-open: 200px;
+    --navbar-radius: 20px;
+
+    /* ----- Espaciados ----- */
+    --gap-navbar-items: 20px;
+    --padding-navbar: 5px 0;
+    --padding-section: 30px;
+    }
+
+
+    main {
+        /* Box Model */
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+    }
+
+
+    /* ========== NAVBAR LATERAL ========== */
+    .lateral-navbar {
+        /* Posicionamiento */
+        top: 5%;
+
+        /* Layout */
+        flex-direction: row;
+
+        /* Box Model */
+        padding: var(--padding-navbar);
+    }
+
+    /* Estado abierto */
+    .lateral-navbar.open {
+        top: 50%;
+    }
+
+
+    /* Lista dentro del navbar */
+    .navbar-list {
+        /* Layout */
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+
+
+        /* Box Model */
+        margin: 0;
+    }
+
+    /* Ítems */
+    .lateral-navbar li {
+        /* Box Model */
+        width: fit-content;
+    }
+
+
+    /* Contenedor de links */
+    .links-container {
+        /* Layout */
+        flex-direction: row;
+        justify-content: space-between;
+
+        /* Box Model */
+        width: fit-content;
+        margin: 0;
+    }
+
+    /* Elementos ocultos en estado cerrado */
+    a[data-hide-mobile] svg,
+    li[data-hide-mobile ="hide"],
+    .menu-toggle .tooltip[data-position="right"] .tooltip__text,
+    .lang-btn-close[data-hide-mobile],
+    .lateral-navbar .lang-btn-close,
+    .lateral-navbar .btn-secondary,
+    .lateral-navbar .theme-cv,
+    .menu-toggle .icon-top {
+        display: none;
+    }
+
+
+    .lateral-navbar.open a[data-hide-mobile] svg,
+    .lateral-navbar.open li[data-hide-mobile ="hide"],
+    .lateral-navbar .navbar__icon-text,
+    .lateral-navbar .btn-secondary,
+    .lateral-navbar.open .theme-cv, 
+    .lateral-navbar.open .icon-top,
+    .theme__button-lang,
+    .theme__icon-button {
+        display: inline-block;
+    }
+
+    /* Lista dentro del navbar */
+    .lateral-navbar.open .navbar-list {
+        /* Layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: var(--gap-navbar-items);
+
+        /* Box Model */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .lateral-navbar.open .links-container {
+        /* Layout */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lateral-navbar.open .links-container {
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /* Seccion Superior */
+
+    .top-element{
+        display: none;
+    }
+
+
+    /* Seccion Presentacion */
+    .presentation {
+        /* Layout */
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+
+        /* Box model */
+        width: 100%;
+        margin: 60px 0;
+    }
+
+    .presentation__container-text {
+        /* Box model */
+        max-width: 100%;
+    }
+
+    .presentation__container-name:hover{
+        gap: 20px;
+    }
+
+    .presentation__arrow{
+        /* Texto */
+        font: 700 35px/1 var(--font-family);
+    }
+
+    .presentation__name {
+        /* Texto */
+        font: 700 40px/1 var(--font-family); /* nombre muy grande */
+    }
+
+    .presentation__pagraph-1,
+    .presentation__pagraph-2 {
+
+        /* Texto */
+        font: 400 16px/1.2 var(--font-family);
+    }
+
+    .presentation__container-image img {
+        /* Box Model */
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        
+        /* Efectos */
+        transition: opacity 1.5s ease, transform 0.5s ease;
+        display: block;
+    }
+
+    .presentation__icon-scroll{
+        /* Posicionamiento */
+        position: absolute;
+        bottom: -30px;
+    }
+
+    .presentation__icon-scroll .icon{
+        width: 40px; 
+        height: 40px;
+    }
+
+
+    /* Seccion Porfolio */
+    .portfolio {
+        padding: 30px;
+    }
+
+
+    .portfolio__project {
+        /* Layout */
+        flex-direction: column;
+    }
+
+
+    .portfolio__image {
+        /* Box Model */
+        width: 100%;
+        max-height: 200px;
+    }
+
+    /* Cuando el texto se despliega */
+    .portfolio__project.open .portfolio__image {
+        max-height: 400px; /* Imagen más grande */
+    }
+
+    .portfolio__subtitle {
+        /* Texto */
+        font: 600 24px/1.5 var(--font-family);
+    }
+
+    .portfolio__decription-title{
+        /* Texto */
+        font: 500 18px/1 var(--font-family);
+    }
+
+
+    .portfolio__container-title-links{
+        /* Layout */
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    /* ========== SECCIÓN SKILLS ========== */
+    .skills {
+        /* Layout */
+        gap: 30px;
+    }
+
+    .skills__list-elements {
+        /* Layout */
+        gap: 30px;
+
+    }
+
+    .skills__list-item {
+        /* Box Model */
+        width: 90px;
+        height: 90px;
+    }
+
+    .skills__list-item:hover {
+        /* Efectos */
+        transform: scale(1.03);
+    }
+
+    .skills__list-item .icon {
+        /* Box Model */
+        width: 70px;
+        height: 70px;
+    }
+    .skills__list-item .icon #github {
+        color: var(--color-dark);
+    }
+
+    /* ========== SECCIÓN SOBRE MÍ ========== */
+    .about {
+        /* Box Model */
+        width: 100%;
+        margin: 0;
+        padding: var(--padding-section);
+    }
+
+    .about__text {
+        /* Texto */
+        font: 400 16px/24px var(--font-family);
+    }
+
+    .about__hobbies_container {
+        /* Layout */
+        justify-content: flex-start;
+    }
+
+    .about__container-image{
+        display: none;
+    }
+
+    /* Footer */
+    .footer__container-links{
+        /* Layout */
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer__link{
+        /* Box Model */
+        padding: 0;
+
+        /* Texto */
+        font: 600 14px/20px var(--font-family);
+    }
+
+    .footer__link[data-hide-mobile]{
+        display: none;
+    }
+
+    .footer__container-email{
+        /* Layout */
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #backToTop {
+        /* Posicionamiento */
+        right: 15px;
+    }
+
+}
+
+/* Celulares pequeños */
+@media (max-width: 480px) { 
+}

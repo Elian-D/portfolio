@@ -1,0 +1,229 @@
+/* ========== NAVBAR LATERAL ========== */
+.lateral-navbar {
+    /* Posicionamiento */
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Box Model */
+    width: var(--navbar-width-closed);
+    padding: var(--padding-navbar);
+
+    /* Fondo/Borde */
+    background: var(--color-bg-navbar-gradient);
+    box-shadow: 4px 4px 20px -1px rgba(0,0,0,0.2);
+    backdrop-filter: blur(14px);
+    border-radius: var(--navbar-radius);
+
+    /* Texto */
+    font-family: var(--font-family);
+    font-style: normal;
+
+    /* Efectos */
+    transition: width 0.3s ease;
+}
+
+
+/* Estado abierto */
+.lateral-navbar.open {
+    width: var(--navbar-width-open);
+    align-items: flex-start;
+    padding: var(--padding-open);
+    border-radius: var(--navbar-radius-open);
+    left: 0;
+}
+
+/* Lista dentro del navbar */
+.navbar-list {
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xlarge);
+
+    /* Box Model */
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Ítems */
+.lateral-navbar li {
+    /* Box Model */
+    width: 100%;
+
+    /* Layout */
+    display: flex;
+    justify-content: center;
+
+    /* Lista */
+    list-style: none;
+}
+
+/* Links */
+.lateral-navbar a {
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+
+    /* Box Model */
+    padding: 6px;
+    box-sizing: border-box;
+
+    /* Texto */
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+/* Estado cerrado de los links */
+.lateral-navbar:not(.open) a {
+    width: auto;
+    justify-content: center;
+    gap: 0;
+}
+
+/* Estado abierto de los links */
+.lateral-navbar.open a {
+    width: 100%;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+    padding: 6px 8px;
+}
+
+/* Íconos SVG */
+.lateral-navbar svg {
+    /* Box Model */
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    /* Layout */
+    flex-shrink: 0;
+}
+
+/* Contenedor superior con logo y toggle */
+.menu-toggle {
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    /* Box Model */
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+/* Botón toggle */
+.menu-toggle button,
+.theme__button-lang,
+.theme__button-theme{
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Box Model */
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+
+    /* Fondo/Borde */
+    background: transparent;
+    border: none;
+
+    /* Efectos */
+    cursor: pointer;
+}
+
+/* Logo */
+.menu-toggle .icon-top {
+    /* Box Model */
+    width: var(--logo-width);
+    height: var(--logo-height);
+
+    /* Layout */
+    display: block;
+}
+
+/* Contenedor de links */
+.links-container {
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-medium);
+
+    /* Box Model */
+    width: 100%;
+    margin: 15px 0;
+
+    /* Texto */
+    font-size: var(--font-size-small);
+}
+
+/* Elementos ocultos en estado cerrado */
+.navbar__icon-text,
+.lateral-navbar .btn-secondary,
+.lateral-navbar .theme-cv,
+.menu-toggle .icon-top {
+    display: none;
+}
+
+/* Estado abierto: visibilidad de elementos */
+.lateral-navbar.open .lang-btn-close {
+    display: none;
+}
+
+.lateral-navbar.open .navbar__icon-text,
+.lateral-navbar .btn-secondary,
+.lateral-navbar.open .theme-cv, 
+.lateral-navbar.open .icon-top,
+.theme__button-lang,
+.theme__icon-button {
+    display: inline-block;
+}
+
+.lateral-navbar.open span {
+    margin-left: 10px;
+}
+
+.lateral-navbar.open .links-container {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contenedor de opciones de tema */
+.lateral-navbar.open .theme-cv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Selector de tema */
+.lateral-navbar.open .theme-cv .container-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: fit-content;
+}
+
+/* Íconos grandes */
+.icon { 
+    width: var(--icon-large);
+    height: var(--icon-large);
+    color: var(--color-icon);
+}
