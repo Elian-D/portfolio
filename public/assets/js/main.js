@@ -142,7 +142,7 @@ moreInfoButtons.forEach(button => {
 
         if (moreInfo.classList.contains("open")) {
             // Imagen se expande en proporción al texto del mismo proyecto
-            const extraHeight = moreInfo.scrollHeight / 1.5; // ajusta divisor según veas
+            const extraHeight = moreInfo.scrollHeight / 0.7; // ajusta divisor según veas
             image.style.maxHeight = 260 + extraHeight + "px";
             button.textContent = "- info";
         } else {

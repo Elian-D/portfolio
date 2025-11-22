@@ -317,36 +317,34 @@ include 'includes/navbar.php';
 
     <!-- Sobre mí -->
     <section class="about">
-        <div class="about__content">
-            <div class="about__container-elements">
-                <div class="about__container-text">
-                    <div class="container-title-arrows">
-                        <div class="arrow"><</div>
-                            <h2 id="about" class="about__title" data-section="about" data-value="title">About Me</h2>
-                        <div class="arrow">/></div>
-                    </div>
-                    <p class="about__text" data-section="about" data-value="text-1">
-                        I've always had a <b>strong interest</b> in technology; I loved learning everything related to computers and software, a passion I inherited from my father.
-                    </p>
-                    <p class="about__text" data-section="about" data-value="text-2">
-                        I am currently studying web development, where I am deepening my knowledge and <b>skills</b> in programming and digital design.
-                    </p>
-                    <p class="about__text" data-section="about" data-value="text-3">
-                        In the future, I plan to study <b>Software Engineering</b> at ITLA, and I also enjoy playing chess to train my mind. You can play with me at <a href="https://www.chess.com" target="_blank" class="about__link"><b>chess.com</b></a>.
-                    </p>
+        <div class="about__container-elements">
+            <div class="about__container-text">
+                <div class="container-title-arrows">
+                    <div class="arrow"><</div>
+                        <h2 id="about" class="about__title" data-section="about" data-value="title">About Me</h2>
+                    <div class="arrow">/></div>
+                </div>
+                <p class="about__text" data-section="about" data-value="text-1">
+                    I've always had a <b>strong interest</b> in technology; I loved learning everything related to computers and software, a passion I inherited from my father.
+                </p>
+                <p class="about__text" data-section="about" data-value="text-2">
+                    I am currently studying web development, where I am deepening my knowledge and <b>skills</b> in programming and digital design.
+                </p>
+                <p class="about__text" data-section="about" data-value="text-3">
+                    In the future, I plan to study <b>Software Engineering</b> at ITLA, and I also enjoy playing chess to train my mind. You can play with me at <a href="https://www.chess.com" target="_blank" class="about__link"><b>chess.com</b></a>.
+                </p>
 
-                    <div class="about__hobbies">
-                        <h2 class="about__hobbies-title" data-section="about" data-value="hobbie-title">More hobbies?</h2>
-                        <div class="about__hobbies_container">
-                            <span class="about__hobby" data-section="about" data-value="hobbie-1">Solve Rubik's Cube</span>
-                            <span class="about__hobby" data-section="about" data-value="hobbie-2">Do exercise</span>
-                            <span class="about__hobby" data-section="about" data-value="hobbie-3">Learn new things</span>
-                        </div>
+                <div class="about__hobbies">
+                    <h2 class="about__hobbies-title" data-section="about" data-value="hobbie-title">More hobbies?</h2>
+                    <div class="about__hobbies_container">
+                        <span class="about__hobby" data-section="about" data-value="hobbie-1">Solve Rubik's Cube</span>
+                        <span class="about__hobby" data-section="about" data-value="hobbie-2">Do exercise</span>
+                        <span class="about__hobby" data-section="about" data-value="hobbie-3">Learn new things</span>
                     </div>
                 </div>
-                <div class="about__container-image">
-                    <img src="assets/img/Sobre-mi.webp" alt="about me image" loading="lazy">
-                </div>
+            </div>
+            <div class="about__container-image">
+                <img src="assets/img/Sobre-mi.webp" alt="about me image" loading="lazy">
             </div>
         </div>
     </section>

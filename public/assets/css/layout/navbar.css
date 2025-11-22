@@ -18,8 +18,11 @@
     padding: var(--space-4) 0;
 
     /* Fondo/Borde */
-    background: var(--color-bg-navbar-gradient);
+    background:
+    var(--color-bg-navbar-gradient),
+    rgba(255, 255, 255, 0.1);
     box-shadow: 4px 4px 20px -1px rgba(0,0,0,0.2);
+    -webkit-backdrop-filter: blur(14px);
     backdrop-filter: blur(14px);
     border-radius: var(--radius-lg);
 

@@ -375,7 +375,7 @@ main {
 
     /* Box Model */
     width: fit-content;
-    padding: var(--space-1) var(--space-2) ;
+    padding: var(--space-1) 0;
     border-radius: var(--radius-lg);
 
 }
@@ -473,7 +473,7 @@ main {
     height: 80px;
 }
 .skills__list-item .icon #github {
-    color: var(--color-contrast-text);
+    color: #282828;
 }
 
 /* ========== SECCIÓN SOBRE MÍ ========== */
@@ -485,18 +485,7 @@ main {
 
     /* Box Model */
     width: 100%;
-    margin: var(--space-9) 0;
-}
-
-.about__content {
-    /* Layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    /* Box Model */
-    width: fit-content;
-    gap: var(--space-2);
+    padding: var(--space-9) var(--space-4);
 }
 
 .about__container-elements{

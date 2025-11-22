@@ -1,12 +1,149 @@
 /* Tablets grandes y laptops pequeños */
 @media (max-width: 1024px) { 
+    main {
+        padding-inline-start: var(--space-8);
+        padding-inline-end: var(--space-2);
+    }
+
+    /* ========== SECCIÓN DE PRESENTACIÓN ========== */
+    .presentation {
+        /* Layout */
+        align-items: center;
+        flex-direction: column;
+        gap: var(--space-5);
+
+    }
+
+    .presentation__container-text {
+        /* Layout */
+        align-items: center;
+        gap: var(--space-2);
+    }
+
+
+    .presentation__role {
+        /* Texto */
+        font: 700 var(--font-size-title)/1 var(--font-family);
+        color: var(--color-primary);
+    }
+
+    .presentation__pagraph-1,
+    .presentation__pagraph-2 {
+        /* Texto */
+        text-align: center;
+    }
+
+    .presentation__container-image img {
+        /* Box Model */
+        width: 350px;
+    }
+
+    .presentation__icon-scroll{
+        /* Posicionamiento */
+        position: absolute;
+        bottom: 0.2rem;
+    }
+
+    /* ========== SECCIÓN PORTFOLIO ========== */
+
+    .portfolio__project {
+        /* Box Model */
+        padding: var(--space-3);
+    }
+
+    .portfolio__image {
+        /* Box Model */
+        width: 900px;
+        max-height: 300px;
+    }
+
+    /* Cuando el texto se despliega */
+    .portfolio__project.open .portfolio__image {
+        max-height: 800px; /* Imagen más grande */
+    }
+
+    .portfolio__container-title-links{
+        /* Layout */
+        align-items: start;
+        flex-direction: column;
+        gap: var(--space-1);
+    }
+
+    .portfolio__subtitle {
+        /* Texto */
+        font: 600 var(--font-size-3xl)/1 var(--font-family);
+    }
+
+    .portfolio__description-container{
+        /* Layout */
+        gap: var(--space-1);
+
+        /* Box Model */
+        margin-bottom: var(--space-1);
+    }
+
+    .portfolio__btn-more:hover{
+        color: var(--color-primary-hover);
+    }
+
+    .portfolio__languajes {
+        /* Box Model */
+        padding: var(--space-1) 0 ;
+    }
+
+    /* ========== SECCIÓN SKILLS ========== */
+    .skills__list-elements {
+        /* Layout */
+        gap: var(--space-7);
+    }
+
+    /* ========== SECCIÓN SOBRE MÍ ========== */
+
+    .about__container-elements{
+        /* Layout */
+        gap: var(--space-3);
+    }
+
+    .about__container-image img{
+        /* Box Model */
+        width: 300px;
+    }
+
+    .about__hobbies_container {
+        justify-content: start;
+    }
+
+    /* =========================
+    Contact Section
+    ========================= */
+    .form-contact{
+        /* Layout */
+        align-items: center;
+        flex-direction: column;
+        padding: var(--space-3) var(--space-4);
+
+    }
+
+    .form__menssage{
+        /* Box Model */
+        width: 100%;
+    }
+
+    .form__container {
+        /* Box Model */
+        width: 100%;
+    }
+
+    /* ========== FOOTER ========== */
+    .footer__container-links{
+        /* Layout */
+        gap: var(--space-4);
+    }
 
 }
 
 /* Tablets en vertical */
 @media (max-width: 768px) { 
-    
-
 }
 
 /* Celulares grandes */
@@ -16,9 +153,7 @@
         /* ----- Tamaños / Dimensiones ----- */
     --navbar-width-closed: 90%;
     --navbar-width-open: 12.5rem;     /* 200px */
-
     }
-
 
     main {
         /* Box Model */
@@ -71,8 +206,6 @@
     .lateral-navbar.open a {
         font: var(--font-size-xs)/1 var(--font-family);
 }
-
-
 
     /* Contenedor de links */
     .links-container {
