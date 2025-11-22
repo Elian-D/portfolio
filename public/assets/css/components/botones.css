@@ -1,0 +1,41 @@
+/* ========== BOTONES ========== */
+
+.btn{
+/* Box Model */
+    width: fit-content;
+    padding: var(--space-1) var(--space-4);
+    border: none;
+    border-radius: var(--radius-md);
+
+    /* Texto */
+    text-decoration: none;
+    color: var(--color-text);
+    font: 400 var(--space-3)/1 var(--font-family);
+
+    /* Efectos */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    /* Fondo/Borde */
+    background-color: var(--color-primary);
+
+}
+
+.btn-primary:hover {
+    /* Fondo/Borde / Efectos */
+    background-color: var(--color-primary-hover);
+}
+
+.btn-secondary {
+    border: 2px solid var(--color-primary);
+
+    /* Fondo/Borde */
+    background-color: transparent;
+}
+
+.btn-secondary:hover {
+    /* Fondo/Borde / Efectos */
+    background-color: var(--color-primary-hover);
+}

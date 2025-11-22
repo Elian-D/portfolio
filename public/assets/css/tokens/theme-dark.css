@@ -1,0 +1,16 @@
+
+[data-theme="dark"] {
+    --color-bg: #0e0e0e;
+    --color-bg-primary: #062242;
+    --color-bg-secondary: #10325a;
+    --color-bg-tertiary: #0C2542;
+    --color-bg-navbar: rgba(255, 255, 255, 0.4); 
+    --color-bg-navbar-gradient: linear-gradient(139.23deg, rgba(255, 255, 255, 0.4) -10.31%, rgba(255, 255, 255, 0.1) 97.5%);
+
+    --color-text: #ffffff;
+    --color-desc: #b8b8b8;
+    --color-icon: #ffffff;
+
+    --color-contrast: #ffffff;
+    --color-contrast-text: #282828;
+}

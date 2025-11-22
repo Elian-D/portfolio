@@ -11,6 +11,6 @@ if (!isset($extra_css)) { $extra_css = ""; }
     <link rel="shortcut icon" href="assets/icons/favicon.svg" type="image/x-icon">    
     <!-- Estilos extra para la página -->
     <?= $extra_css ?>
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>

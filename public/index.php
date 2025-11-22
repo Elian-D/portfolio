@@ -1,7 +1,7 @@
 <!-- Index -->
 <?php
 $page_title = " Elian Bertre - Desarrollador Full Stack";
-$extra_css = '<link rel="stylesheet" href="assets/css/index.css">';
+$extra_css = '<link rel="stylesheet" href="assets/css/pages/index.css">';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
