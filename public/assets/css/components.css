@@ -3,14 +3,14 @@
 .btn{
 /* Box Model */
     width: fit-content;
-    padding: 5px 20px;
+    padding: var(--space-1) var(--space-4);
     border: none;
-    border-radius: var(--radius-small);
+    border-radius: var(--radius-md);
 
     /* Texto */
     text-decoration: none;
     color: var(--color-text);
-    font: 400 14px/20px var(--font-family);
+    font: 400 var(--space-3)/1 var(--font-family);
 
     /* Efectos */
     cursor: pointer;
@@ -52,19 +52,19 @@
 
     /* Box Model */
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: var(--space-3);
 
     /* Texto */
     text-align: center;
 }
 
 .container-title-arrows:hover{
-    gap: 15px;
+    gap: var(--space-3);
 }
 
 .arrow{
     /* Texto */
-    font: 700 var(--title-size)/1 var(--font-family);
+    font: 700 var(--font-size-title)/1 var(--font-family);
     color: var(--color-primary);
 }
 
@@ -116,7 +116,7 @@
 .tooltip__item {
     width: 100px;
     height: 100px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-md);
     background: var(--color-contrast);
     display: flex;
     align-items: center;
@@ -128,11 +128,11 @@
     z-index: 10000;
     position: absolute;
     white-space: nowrap;
-    padding: 8px 12px;
+    padding: var(--space-1) var(--space-3);
     background-color: var(--color-contrast);
     color: var(--color-contrast-text);
-    border-radius: var(--radius-small);
-    font: 400 12px/1 var(--font-family);
+    border-radius: var(--radius-md);
+    font: 400 var(--font-size-xs)/1 var(--font-family);
     text-transform: capitalize;
     opacity: 0;
     pointer-events: none;

@@ -4,13 +4,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: var(--gap-mini);
+    gap: var(--space-2);
 
     /* Box Model */
     width: 100%;
     height: fit-content;
-    margin-top: 40px;
-    padding: 20px 0 10px 0;
+    margin-top: var(--space-7);
+    padding: var(--space-4) 0 var(--space-2) 0;
 
     /* Fondos */
     background-color: var(--color-bg-secondary);
@@ -27,11 +27,11 @@
     /* Layout */
     display: flex;
     justify-content: center;
-    gap: var(--gap-xxxxxlarge);
+    gap: var(--space-10);
 
     /* Box Model */
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: var(--space-4);
 }
 
 .footer__link{
@@ -41,7 +41,7 @@
 
     /* Texto */
     color: var(--color-text);
-    font: 600 var(--font-size-base)/20px var(--font-family);
+    font: 600 var(--font-size-base)/1 var(--font-family);
     text-decoration: none;
 
     /* Efectos */
@@ -57,22 +57,22 @@
     /* Layout */
     display: flex;
     align-items: center;
-    gap: var(--gap-xxxxlarge);
+    gap: var(--space-9);
 
     /* Box Model */
-    margin-bottom: 20px;
+    margin-bottom: var(--space-4);
 }
 
 .footer__email{
     /* Texto */
     color: var(--color-text);
-    font: 600 var(--font-size-small)/20px var(--font-family);
+    font: 600 var(--font-size-xs)/1 var(--font-family);
 }
 
 .footer__title{
     /* Texto */
     color: var(--color-primary);
-    font: 600 var(--font-size-xxlarge)/24px var(--font-family);
+    font: 600 var(--font-size-2xl)/24px var(--font-family);
 }
 
 .footer__container-social{
@@ -80,11 +80,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: var(--gap-xxlarge);
+    gap: var(--space-7);
 
     /* Box Model */
     width: 100%;
-    padding-top: 10px;
+    padding-top: var(--space-2);
 
     /* Fondo/Borde */
     border-top: 1px solid var(--color-icon);
@@ -103,8 +103,8 @@
     display: block;
 
     /* Box Model */
-    width: var(--icon-size);
-    height: var(--icon-size);
+    width: var(--icon-sm);
+    height: var(--icon-sm);
 
     /* Texto */
     color: var(--color-icon);
@@ -162,7 +162,7 @@
 }
 
 .footer__copy {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
     opacity: 0.8;
     margin-top: 5px;
 }
