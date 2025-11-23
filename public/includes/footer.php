@@ -57,6 +57,7 @@
 
 <!-- Scripts -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
 
 </body>
 </html>

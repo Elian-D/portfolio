@@ -88,42 +88,24 @@ initThemeToggle();
 // Cambiar Idioma
 // ==========================
 const langButtons = document.querySelectorAll(".theme__button-lang");
-const textsToChange = document.querySelectorAll("[data-section]");
-
-let currentLang = "en"; // idioma inicial
 
 langButtons.forEach(button => {
-    const tooltip = button.closest(".tooltip").querySelector(".tooltip__text"); // el tooltip del botón
+  const tooltip = button.closest(".tooltip").querySelector(".tooltip__text");
 
-    button.addEventListener("click", () => {
-        // Alternar idioma con preloader
-        showPreloader(() => {
-            currentLang = currentLang === "en" ? "es" : "en";
+  button.addEventListener("click", () => {
+    const next = i18next.language === "es" ? "en" : "es";
 
-            fetch(`lang/${currentLang}.json`)
-                .then(res => res.json())
-                .then(data => {
-                    // Actualizar textos
-                    textsToChange.forEach((el) => {
-                        const section = el.dataset.section;
-                        const value = el.dataset.value;
+    showPreloader(() => {
+      i18next.changeLanguage(next).then(() => {
+        updateContent();
 
-                        if (data[section] && data[section][value]) {
-                            el.innerHTML = data[section][value];
-                        }
-                    });
-
-                    // Actualizar tooltip del botón
-                    if (currentLang === "en") {
-                        tooltip.textContent = "Cambiar al Español";
-                    } else {
-                        tooltip.textContent = "Switch to English";
-                    }
-                })
-                .catch(err => console.error("Error loading language file:", err));
-        });
+        tooltip.textContent = 
+          next === "es" ? "Cambiar al Español" : "Switch to English";
+      });
     });
+  });
 });
+
 
 
 // ==========================

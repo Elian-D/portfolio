@@ -1,10 +1,10 @@
-    <!-- <div id="preloader">
+    <div id="preloader">
         <svg class="icon-top theme-icon" id="preloader-logo"
             data-icon-light="assets/icons/icon-general.svg#icon-light"
             data-icon-dark="assets/icons/icon-general.svg#icon-dark">
             <use xlink:href="assets/icons/icon-general.svg#icon-dark"></use>
         </svg>
-    </div> -->
+    </div>
 
 <nav class="lateral-navbar">
     <ul class="navbar-list">
@@ -21,7 +21,7 @@
                 <button id="menu" onclick="toggleMenu()" aria-label="Abrir Menú">
                     <svg class="icon"><use xlink:href="assets/icons/icon-navbar.svg#bars"></use></svg>
                 </button>
-                <span data-section="link-navbar" data-value="Menu" class="tooltip__text">Menu</span>
+                <span data-i18n="navbar.openMenu" class="tooltip__text">Menu</span>
             </div>
         </li>
 
@@ -33,7 +33,7 @@
                     <svg class="icon">
                         <use xlink:href="assets/icons/icon-navbar.svg#home"></use>
                     </svg>
-                    <span class="navbar__icon-text" data-section="link-navbar" data-value="Home">Home</span>
+                    <span class="navbar__icon-text" data-i18n="navbar.home">Home</span>
                 </a>
             </li>
             
@@ -43,7 +43,7 @@
                     <svg class="icon">
                         <use xlink:href="assets/icons/icon-navbar.svg#folder"></use>
                     </svg>
-                    <span class="navbar__icon-text" data-section="link-navbar" data-value="Portfolio">Portfolio</span>
+                    <span class="navbar__icon-text" data-i18n="navbar.portfolio">Portfolio</span>
                 </a>
             </li>
 
@@ -52,7 +52,7 @@
                     <svg class="icon">
                         <use xlink:href="assets/icons/icon-navbar.svg#brain"></use>
                     </svg>
-                    <span class="navbar__icon-text" data-section="link-navbar" data-value="Skills">Skills</span>
+                    <span class="navbar__icon-text" data-i18n="navbar.skills">Skills</span>
                 </a>
             </li>
 
@@ -61,7 +61,7 @@
                     <svg class="icon">
                         <use xlink:href="assets/icons/icon-navbar.svg#cup"></use>
                     </svg>
-                    <span class="navbar__icon-text" data-section="link-navbar" data-value="About">About</span>
+                    <span class="navbar__icon-text" data-i18n="navbar.about">About</span>
                 </a>
             </li>
             
@@ -70,7 +70,7 @@
                     <svg class="icon">
                         <use xlink:href="assets/icons/icon-navbar.svg#certificate"></use>
                     </svg>
-                    <span class="navbar__icon-text" data-section="link-navbar" data-value="Certificates">Certificates</span>
+                    <span class="navbar__icon-text" data-i18n="navbar.certificates">Certificates</span>
                 </a>
             </li>
             
@@ -79,7 +79,7 @@
                     <svg class="icon">
                         <use xlink:href="assets/icons/icon-navbar.svg#contact"></use>
                     </svg>
-                    <span class="navbar__icon-text" data-section="link-navbar" data-value="ContactME">Contact Me</span>
+                    <span class="navbar__icon-text" data-i18n="navbar.contact">Contact Me</span>
                 </a>
             </li>
         </div>
@@ -106,7 +106,7 @@
                     <span id="theme-text" class="tooltip__text">Dark</span>
                 </div>
             </div>
-            <button class="btn btn-secondary" data-section="theme-cv" data-value="download-CV">Download CV</button>
+            <button class="btn btn-secondary" data-i18n="cv.download">Download CV</button>
         </li>
     </ul>
 </nav>

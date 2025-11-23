@@ -12,5 +12,8 @@ if (!isset($extra_css)) { $extra_css = ""; }
     <!-- Estilos extra para la página -->
     <?= $extra_css ?>
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.3/i18nextHttpBackend.min.js"></script>
 </head>
 <body>

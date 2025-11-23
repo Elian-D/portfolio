@@ -1,97 +1,93 @@
 {
-    "link-navbar": {
-        "Home": "Home",
-        "About": "About",
-        "Portfolio":"Portfolio",
-        "Skills": "Skills",
-        "Certificate": "Certificates",
-        "ContactME": "Contact Me",
-        "Open Menu": "Open Menu"
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "skills": "Skills",
+    "certificates": "Certificates",
+    "contact": "Contact Me",
+    "openMenu": "Open Menu"
+  },
+
+  "cv": {
+    "download": "Download CV"
+  },
+
+  "presentation": {
+    "role": "Full Stack Developer",
+    "p1": "I am a young Dominican passionate about technology and web development. I am constantly learning and striving to improve my skills every day to build increasingly professional and functional projects.",
+    "p2_part1": "If you want to know more about my background and experience, you can check ",
+    "p2_link1": "my resume",
+    "p2_part2": " or visit ",
+    "p2_link2": "my LinkedIn profile",
+    "p2_part3": "."
+  },
+
+  "about": {
+    "title": "About Me",
+    "p1": "I have always had a strong <b>interest</b> in technology; I loved learning everything related to computers and software, a passion I inherited from my father.",
+    "p2": "I am currently studying web development, deepening my <b>knowledge</b> and <b>skills</b> in programming and digital design.",
+    "p3": "In the future, I plan to study <b>Software Engineering</b> at ITLA, and I enjoy playing chess to train my mind. You can play with me at <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
+    "hobbiesTitle": "More hobbies?",
+    "hobbies": [
+      "Solving Rubik's cubes",
+      "Exercising",
+      "Learning new things"
+    ]
+  },
+
+  "skills": {
+    "title": "Skills",
+    "languages": "Languages & Frameworks",
+    "tools": "Tools"
+  },
+
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "title": "Web Page Enterprise",
+        "description": "Robotfrías is a project that develops complete digital solutions: modern websites, custom software, and creative content for brands. It also integrates an educational platform with courses and classes designed for beginners in the tech world.",
+        "features": [
+          "Modern and responsive web development",
+          "Custom software creation",
+          "Professional digital content production",
+          "Courses and classes for technology beginners",
+          "Integral solutions for small businesses",
+          "Approach that combines technology and education"
+        ],
+        "links": {
+          "repo": "View Repo",
+          "demo": "View Demo"
+        }
+      }
+    ],
+    "more": "See More Projects"
+  },
+
+  "certificates": {
+    "title": "Certifications",
+    "items": [
+      "Diploma in Business Intelligence with Power BI",
+      "Database Administration",
+      "Intermediate Python Programming",
+      "Python Programming Fundamentals",
+      "Introduction to Programming"
+    ],
+    "button": "View Certificate"
+  },
+
+  "footer": {
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "skills": "Skills",
+      "certificates": "Certificates",
+      "contact": "Contact Me"
     },
-
-    "theme-cv": {
-        "download-CV": "Download CV"
-    },
-
-    "top-element": {
-        "Home": "Home",
-        "ContactME": "Contact Me",
-        "English": "English",
-        "Spanish": "Spanish",
-        "French": "French,"
-    },
-
-    "presentation": {
-        "role": "Full Stack Developer",
-        "pagraph-1": "I am a young Dominican passionate about technology and web development. I am constantly learning and striving to improve my skills every day in order to build projects that are increasingly professional and functional.",
-        "pagraph-2-text-1": "If you would like to know more about my background and experience, feel free to check out ",
-        "link-1": "my resume",
-        "pagraph-2-text-2": " or visit ",
-        "link-2": "my LinkedIn profile",
-        "pagraph-2-text-3": "."
-    },
-
-    "about": {
-        "title": "About Me",
-        "text-1": "I've always had a <b>strong interest</b> in technology; I loved learning everything related to computers and software, a passion I inherited from my father.",
-        "text-2": "I am currently studying web development, where I am deepening my <b>knowledge</b> and <b>skills</b> in programming and digital design.",
-        "text-3": "In the future, I plan to study <b>Software Engineering</b> at ITLA, and I also enjoy playing chess to train my mind. You can play with me at <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
-        "hobbie-title": "More hobbies?",
-        "hobbie-1": "Solving Rubik's cubes",
-        "hobbie-2": "Exercising",
-        "hobbie-3": "Learning new things"
-    },
-
-
-    "skills": {
-        "title": "Skills",
-        "language": "Languages & Frameworks",
-        "tool": "Tools"
-    },
-
-    "portfolio": {
-        "title": "Portfolio",
-        "project-1": "Web Page Enterprise",
-        "project-2": "Web Page Ecotourism",
-        "project-3": "Web Page Polytechnic",
-        "description": "Description",
-        "description-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
-        "description-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
-        "description-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
-        "project-info-1":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
-        "project-info-2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
-        "project-info-3":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!",
-        "repo": "View Repo",
-        "demo": "View Demo",
-        "more": "See More Projects"
-    },
-
-    "certificates": {
-        "title": "Certifications",
-        "cert1": "Diploma in Business Intelligence with Power BI",
-        "cert2": "Database Administration",
-        "cert3": "Programming with Intermediate Python",
-        "cert4": "Python Programming Fundamentals",
-        "cert5": "Introduction to Programming",
-        "btn-certificate": "View Certificate"
-    },
-
-
-    "footer-link": {
-        "home": "Home",
-        "about": "About",
-        "portfolio":"Portfolio",
-        "skills": "Skills",
-        "certificates": "Certificates",
-        "contact": "Contact Me"
-    },
-
-    "email": {
-        "title": "let's work together!"
-    },
-
-    "footer-boton": {
-        "top": "Go top",
-        "copy": "Elian Bertre. All rights reserved."
-    }
+    "contactTitle": "Let's work together!",
+    "top": "Go top",
+    "copy": "Elian Bertre. All rights reserved."
+  }
 }
