@@ -1,15 +1,15 @@
 <footer class="footer">
     <div class="footer__container-links">
-        <a class="footer__link" href="index.php#top" data-section="footer-link" data-value="home">Home</a>
-        <a class="footer__link" href="#portfolio" data-section="footer-link" data-value="portfolio">Portfolio</a>
-        <a class="footer__link" href="#skills" data-section="footer-link" data-value="skills">Skills</a>
-        <a class="footer__link" href="#about" data-section="footer-link" data-value="about">About</a>
-        <a class="footer__link" href="#certificates" data-section="footer-link" data-value="certificates" data-hide-mobile>Certificates</a>
-        <a class="footer__link" href="contact.php" data-section="footer-link" data-value="contact">Contact Me</a>
+        <a class="footer__link" href="index.php#top" data-i18n="footer.links.home">Home</a>
+        <a class="footer__link" href="#portfolio" data-i18n="footer.links.portfolio">Portfolio</a>
+        <a class="footer__link" href="#skills" data-i18n="footer.links.skills">Skills</a>
+        <a class="footer__link" href="#about" data-i18n="footer.links.about">About</a>
+        <a class="footer__link" href="#certificates" data-i18n="footer.links.certificates" data-hide-mobile>Certificates</a>
+        <a class="footer__link" href="contact.php" data-i18n="footer.links.contact">Contact Me</a>
     </div>
 
     <div class="footer__container-email">
-        <h2 data-section="email" data-value="title" class="footer__title">let's work together!</h2>
+        <h2 data-i18n="footer.contactTitle" class="footer__title">let's work together!</h2>
         <a href="mailto:eliandavidbertrecuello19@gmail.com" class="footer__email">eliandavidbertrecuello19@gmail.com</a>
     </div>
 
@@ -46,12 +46,11 @@
         <button class="footer__top" id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'});">
             <div class="tooltip" data-position="left">
                 <svg class="icon"><use href="assets/icons/icon-general.svg#arrow"></use></svg>
-                <span class="tooltip__text" data-section="footer-boton" data-value="top">Go top</span>
+                <span class="tooltip__text" data-i18n="footer.top">Go top</span>
             </div>
         </button>
         <p class="footer__copy">Elian Dev</p>
     </div>
-    <img src="" alt="">
 </footer>
 
 
