@@ -10,6 +10,7 @@ include 'includes/navbar.php';
 <!-- Contenido Aquí -->
     <?php include 'includes/top.php' ?>
 
+    <!-- Sección de Presentacion -->
     <section class="presentation">
         <div class="presentation__container-text">
             <div class="presentation__container-name">
@@ -69,17 +70,16 @@ include 'includes/navbar.php';
                     <button class="portfolio__btn-more">+ info</button>
                 </div>
                 <div class="portfolio__more-info">
-                    <p class="portfolio__info" data-section="portfolio" data-value="project-info-1">Desarrollo web completo: Diseño y creación de páginas web modernas, responsivas y profesionales.
-
-Software personalizado: Desarrollo de aplicaciones adaptadas a las necesidades específicas de clientes.
-
-Producción de contenido digital: Creación de contenido creativo para redes, blogs, videos y más.
-
-Educación y capacitación: Cursos y clases para principiantes que quieren entrar al mundo digital.
-
-Enfoque integral: Combina servicios tecnológicos con formación, permitiendo a usuarios y empresas tanto construir como aprender.
-
-Atención a emprendedores: Apoyo a marcas nuevas con soluciones de bajo costo y escalables.</p>
+                    <p class="portfolio__info" data-section="portfolio" data-value="project-info-1">
+                        <ul class="portfolio__more-feature">
+                            <li class="portfolio__item-feature">Desarrollo web moderno y responsivo</li>
+                            <li class="portfolio__item-feature">Creación de software a medida</li>
+                            <li class="portfolio__item-feature">Producción de contenido digital profesional</li>
+                            <li class="portfolio__item-feature">Cursos y clases para principiantes en tecnología</li>
+                            <li class="portfolio__item-feature">Soluciones integrales para emprendedores y pequeñas empresas</li>
+                            <li class="portfolio__item-feature">Enfoque que combina servicios tecnológicos y formación</li>
+                        </ul>
+                    </p>
                 </div>
                 <div class="portfolio__elements">
                     <div class="portfolio__languajes">

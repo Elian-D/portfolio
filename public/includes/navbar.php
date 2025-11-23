@@ -1,10 +1,10 @@
-    <div id="preloader">
+    <!-- <div id="preloader">
         <svg class="icon-top theme-icon" id="preloader-logo"
             data-icon-light="assets/icons/icon-general.svg#icon-light"
             data-icon-dark="assets/icons/icon-general.svg#icon-dark">
             <use xlink:href="assets/icons/icon-general.svg#icon-dark"></use>
         </svg>
-    </div>
+    </div> -->
 
 <nav class="lateral-navbar">
     <ul class="navbar-list">

@@ -362,13 +362,21 @@
     .portfolio__project {
         /* Layout */
         flex-direction: column;
+        gap: var(--space-2);
+
+        /* Box Model */
+        width: 100%;
     }
 
 
     .portfolio__image {
         /* Box Model */
         width: 100%;
-        max-height: 200px;
+        max-height: 250px;
+    }
+
+    .portfolio__container-image{
+        width: 100%;
     }
 
     /* Cuando el texto se despliega */
@@ -376,6 +384,12 @@
         max-height: 400px; /* Imagen más grande */
     }
 
+    .portfolio__container-content{
+    /* Box model */
+    width: 100%;
+}
+
+    
     .portfolio__subtitle {
         /* Texto */
         font: 600 var(--font-size-xl)/1.5 var(--font-family);
@@ -386,7 +400,10 @@
         font: 500 var(--font-size-lg)/1 var(--font-family);
     }
 
-
+    .portfolio__links {
+        /* Box Model */
+        margin-top: 0;
+    }
     .portfolio__container-title-links{
         /* Layout */
         align-items: flex-start;
@@ -402,8 +419,8 @@
 
     .skills__list-elements {
         /* Layout */
+        justify-content: space-evenly;
         gap: var(--space-4);
-
     }
 
     .skills__list-item {
@@ -421,9 +438,6 @@
         /* Box Model */
         width: 70px;
         height: 70px;
-    }
-    .skills__list-item .icon #github {
-        color: var(--color-dark);
     }
 
     /* ========== SECCIÓN SOBRE MÍ ========== */
