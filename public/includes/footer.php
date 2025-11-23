@@ -14,27 +14,22 @@
     </div>
 
     <div class="footer__container-social">
-        <a class="footer__icon" href="https://github.com/tu-usuario" target="_blank">
+        <a class="footer__icon" href="https://github.com/Elian-D/" target="_blank">
             <svg class="icon">
                 <use xlink:href="assets/icons/icon-general.svg#github"></use>
             </svg>
         </a>
-        <a class="footer__icon" href="https://linkedin.com/in/tu-usuario" target="_blank">
+        <a class="footer__icon" href="https://www.linkedin.com/in/elian-david-bertre-cuello-8296a7354/" target="_blank">
             <svg class="icon">
                 <use xlink:href="assets/icons/icon-general.svg#li"></use>
             </svg>
         </a>
-        <a class="footer__icon" href="https://twitter.com/tu-usuario" target="_blank">
-            <svg class="icon">
-                <use xlink:href="assets/icons/icon-general.svg#tw"></use>
-            </svg>
-        </a>
-        <a class="footer__icon" href="https://instagram.com/tu-usuario" target="_blank">
+        <a class="footer__icon" href="https://www.instagram.com/eliandavidbertrecuello/" target="_blank">
             <svg class="icon">
                 <use xlink:href="assets/icons/icon-general.svg#insta"></use>
             </svg>
         </a>
-        <a class="footer__icon" href="https://facebook.com/tu-usuario" target="_blank">
+        <a class="footer__icon" href="https://www.facebook.com/eliandavid.bertrecuello/" target="_blank">
             <svg class="icon">
                 <use xlink:href="assets/icons/icon-general.svg#face"></use>
             </svg>
