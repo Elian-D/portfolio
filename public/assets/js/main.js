@@ -101,7 +101,7 @@ langButtons.forEach(button => {
         updateContent();
 
         tooltip.textContent = 
-          next === "es" ? "Cambiar al Español" : "Switch to English";
+          next === "es" ? "Switch to English" : "Cambiar al Español";
       });
     });
   });

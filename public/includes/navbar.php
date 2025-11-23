@@ -89,7 +89,7 @@
                 <button class="theme__button-lang">
                     <svg class="icon"><use xlink:href="assets/icons/icon-navbar.svg#language"></use></svg>
                 </button>
-                <span class="tooltip__text">Cambiar al Español</span>
+                <span class="tooltip__text">Switch to English</span>
             </div>
         </li>
         <!-- Theme selector + CV -->
@@ -99,7 +99,7 @@
                     <button class="theme__button-lang">
                         <svg class="icon"><use xlink:href="assets/icons/icon-navbar.svg#language"></use></svg>
                     </button>
-                    <span class="tooltip__text">Cambiar al Español</span>
+                    <span class="tooltip__text">Switch to English</span>
                 </div>
                 <div class="tooltip theme-icon" data-position="right">
                     <button class="theme__button-theme"><svg class="icon theme-icon-main"><use xlink:href="assets/icons/icon-navbar.svg#moon"></use></svg></button>

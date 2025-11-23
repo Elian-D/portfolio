@@ -119,5 +119,21 @@
     },
     "contactTitle": "Let's work together!",
     "top": "Go top"
+  },
+
+
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "The best way to start something great is with a conversation. Write to me and let's talk about how we can shape your ideas.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Full Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Message",
+      "sendButton": "Send"
+    }
   }
+
 }

@@ -79,13 +79,11 @@
     }
   },
 
-
   "skills": {
     "title": "Habilidades",
     "languages": "Lenguajes y Frameworks",
     "tools": "Herramientas"
   },
-
 
   "about": {
     "title": "Sobre mí",
@@ -99,7 +97,6 @@
       "hob3": "Aprender cosas nuevas"
     }
   },
-
 
   "certificates": {
     "title": "Certificaciones",
@@ -122,5 +119,19 @@
     },
     "contactTitle": "¡Trabajemos juntos!",
     "top": "Ir arriba"
+  },
+
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "La mejor forma de iniciar algo grande es con una conversación. Escríbeme y hablemos sobre cómo podemos darle forma a tus ideas.",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Nombre Completo",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Mensaje",
+      "sendButton": "Enviar"
+    }
   }
 }

@@ -16,6 +16,7 @@ i18next
 function updateContent() {
   updateTextElements();
   updateListElements();
+  updatePlaceholders();
 }
 
 // ==========================
@@ -52,4 +53,19 @@ function updateListElements() {
     }
   });
 }
+
+// ==========================
+// PLACEHOLDERS
+// ==========================
+function updatePlaceholders() {
+  const nodes = document.querySelectorAll("[data-i18n-placeholder]");
+
+  nodes.forEach(node => {
+    const key = node.getAttribute("data-i18n-placeholder");
+    const value = i18next.t(key);
+
+    node.placeholder = value;
+  });
+}
+
 

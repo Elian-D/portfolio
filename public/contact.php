@@ -14,8 +14,8 @@ include 'includes/navbar.php';
     <section class="form-contact">
         <div class="form__menssage">
             <div class="form__menssage-container">
-                <h2 class="form__menssage-title">Contac ME</h2>
-                <p class="form__menssage-text">The best way to start something great is with a conversation. Write to me and let's talk about how we can shape your ideas.</p>
+                <h2 class="form__menssage-title" data-i18n="contact.title">Contac ME</h2>
+                <p class="form__menssage-text" data-i18n="contact.subtitle">The best way to start something great is with a conversation. Write to me and let's talk about how we can shape your ideas.</p>
             </div>
             <div class="form__email-container">
                 <svg class="icon"><use xlink:href="assets/icons/icon-general.svg#email"></use></svg>
@@ -35,19 +35,19 @@ include 'includes/navbar.php';
         <div class="form__container">
             <form>
                 <div class="form__container-elements">
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name" placeholder="Nombre Completo">
+                    <label for="name" data-i18n="contact.form.nameLabel">Nombre</label>
+                    <input type="text" name="name" placeholder="Nombre Completo" data-i18n-placeholder="contact.form.namePlaceholder">
                 </div>
                 <div class="form__container-elements">
-                    <label for="name">Email</label>
-                    <input type="email" name="name" placeholder="email">
+                    <label for="name" data-i18n="contact.form.emailLabel">Email</label>
+                    <input type="email" name="name" placeholder="Email" data-i18n-placeholder="contact.form.emailPlaceholder">
                 </div>
                 <div class="form__container-elements">
-                    <label for="menssage">Mensaje</label>
-                    <textarea name="menssage" id="menssage" placeholder="Mensaje"></textarea>
+                    <label for="menssage" data-i18n="contact.form.messageLabel">Mensaje</label>
+                    <textarea name="menssage" id="menssage" placeholder="Mensaje" data-i18n-placeholder="contact.form.messagePlaceholder"></textarea>
                 </div>
 
-                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="btn btn-primary" type="submit" data-i18n="contact.form.sendButton">Enviar</button>
             </form>
         </div>
     </section>
