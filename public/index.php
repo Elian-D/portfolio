@@ -25,7 +25,7 @@ include 'includes/navbar.php';
                 <span data-section="presentation" data-value="pagraph-2-text-1">If you would like to know more about my background and experience, feel free to check out </span>
                 <a href="#" class="presentation__link" data-section="presentation" data-value="link-1">my resume</a>
                 <span data-section="presentation" data-value="pagraph-2-text-2"> or visit </span>
-                <a href="#" class="presentation__link" data-section="presentation" data-value="link-2">my LinkedIn profile</a>
+                <a href="https://www.linkedin.com/in/elian-david-bertre-cuello-8296a7354/" class="presentation__link" data-section="presentation" data-value="link-2">my LinkedIn profile</a>
                 <span data-section="presentation" data-value="pagraph-2-text-3">.</span>
             </p>
         </div>
@@ -44,30 +44,42 @@ include 'includes/navbar.php';
             <div class="arrow">/></div>
         </div>
         <div class="portfolio__project">
-            <img src="assets/img/project-1.webp" class="portfolio__image" alt="Project 1" loading="lazy">
+            <div class="portfolio__container-image">
+                <img src="assets/img/project-1.webp" class="portfolio__image" alt="Project 1" loading="lazy">
+            </div>
             <div class="portfolio__container-content">
                 <div class="portfolio__container-title-links">
                     <h3 class="portfolio__subtitle" data-section="portfolio" data-value="project-1">Web Page Enterprise</h3>
                     <div class="portfolio__links">
                         <div class="tooltip" data-position="top">
-                            <a href="#repo" class="portfolio__icon-link"><svg class="icon"><use xlink:href="assets/icons/icon-general.svg#github"></use></svg></a>
+                            <a href="https://github.com/Elian-D/robotfrias.git" target="_blank" class="portfolio__icon-link"><svg class="icon"><use xlink:href="assets/icons/icon-general.svg#github"></use></svg></a>
                             <span class="tooltip__text" data-section="portfolio" data-value="repo">View Repo</span>
                         </div>
                         <div class="tooltip" data-position="top">
-                            <a href="#demo" class="portfolio__icon-link"><svg class="icon"><use xlink:href="assets/icons/icon-general.svg#demo"></use></svg></a>
+                            <a href="https://www.robotfria.com" target="_blank" class="portfolio__icon-link"><svg class="icon"><use xlink:href="assets/icons/icon-general.svg#demo"></use></svg></a>
                             <span class="tooltip__text" data-section="portfolio" data-value="demo">View Demo</span>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio__description-container">
                     <h4 class="portfolio__description-title" data-section="portfolio" data-value="description">Description</h4>
-                    <p class="portfolio__description-paragraph" data-section="portfolio" data-value="description-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda debitis similique illo quos voluptatibus error voluptatum vero fugit, ea dolore iusto, vel ullam. Ea qui debitis laboriosam quae placeat!</p>
+                    <p class="portfolio__description-paragraph" data-section="portfolio" data-value="description-1">Robotfrías es un proyecto que desarrolla soluciones digitales completas: sitios web modernos, software a medida y contenido creativo para marcas. También integra una plataforma educativa con cursos y clases orientadas a quienes desean iniciarse en el mundo tecnológico.</p>
                 </div>
                 <div class="portfolio__link-more">
                     <button class="portfolio__btn-more">+ info</button>
                 </div>
                 <div class="portfolio__more-info">
-                    <p class="portfolio__info" data-section="portfolio" data-value="project-info-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis. Voluptatibus possimus voluptates illum esse dolor exercitationem ipsum harum.</p>
+                    <p class="portfolio__info" data-section="portfolio" data-value="project-info-1">Desarrollo web completo: Diseño y creación de páginas web modernas, responsivas y profesionales.
+
+Software personalizado: Desarrollo de aplicaciones adaptadas a las necesidades específicas de clientes.
+
+Producción de contenido digital: Creación de contenido creativo para redes, blogs, videos y más.
+
+Educación y capacitación: Cursos y clases para principiantes que quieren entrar al mundo digital.
+
+Enfoque integral: Combina servicios tecnológicos con formación, permitiendo a usuarios y empresas tanto construir como aprender.
+
+Atención a emprendedores: Apoyo a marcas nuevas con soluciones de bajo costo y escalables.</p>
                 </div>
                 <div class="portfolio__elements">
                     <div class="portfolio__languajes">
@@ -94,7 +106,9 @@ include 'includes/navbar.php';
             </div>
         </div>
         <div class="portfolio__project">
-            <img src="assets/img/project-2.webp" class="portfolio__image" alt="Project 1" loading="lazy">
+            <div class="portfolio__container-image">
+                <img src="assets/img/project-2.webp" class="portfolio__image" alt="Project 1" loading="lazy">
+            </div>
             <div class="portfolio__container-content">
                 <div class="portfolio__container-title-links">
                     <h3 class="portfolio__subtitle" data-section="portfolio" data-value="project-2">Web Page Ecotourism</h3>
@@ -144,7 +158,9 @@ include 'includes/navbar.php';
             </div>
         </div>            
         <div class="portfolio__project">
-            <img src="assets/img/project-3.webp" class="portfolio__image" alt="Project 1" loading="lazy">
+            <div class="portfolio__container-image">
+                <img src="assets/img/project-3.webp" class="portfolio__image" alt="Project 1" loading="lazy">
+            </div>
             <div class="portfolio__container-content">
                 <div class="portfolio__container-title-links">
                     <h3 class="portfolio__subtitle" data-section="portfolio" data-value="project-3">Web Page Polytechnic</h3>
