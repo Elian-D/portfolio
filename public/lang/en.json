@@ -23,17 +23,55 @@
     "p2_part3": "."
   },
 
-  "about": {
-    "title": "About Me",
-    "p1": "I have always had a strong <b>interest</b> in technology; I loved learning everything related to computers and software, a passion I inherited from my father.",
-    "p2": "I am currently studying web development, deepening my <b>knowledge</b> and <b>skills</b> in programming and digital design.",
-    "p3": "In the future, I plan to study <b>Software Engineering</b> at ITLA, and I enjoy playing chess to train my mind. You can play with me at <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
-    "hobbiesTitle": "More hobbies?",
-    "hobbies": [
-      "Solving Rubik's cubes",
-      "Exercising",
-      "Learning new things"
-    ]
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Description",
+    "projects": [
+      {
+        "title": "Robotfrías Web Page",
+        "description": "Robotfrías is a project focused on developing complete digital solutions: modern websites, custom software, and creative content for brands. It also includes an educational platform offering courses and classes for people who want to start in the tech world.",
+        "features": [
+          "Modern and responsive web development",
+          "Custom software creation",
+          "Professional digital content production",
+          "Courses and lessons for beginners in technology",
+          "Comprehensive solutions for entrepreneurs and small businesses",
+          "A combined approach between tech services and education"
+        ]
+      },
+      {
+        "title": "En Ruta Ando Website",
+        "description": "Modern website developed for a Dominican ecotourism company. Its main goal is to provide a clear, attractive and easy-to-navigate digital experience, allowing users to explore routes, excursions and natural activities intuitively. The design communicates professionalism while keeping a fresh visual aesthetic inspired by nature.",
+        "features": [
+          "Simple navigation focused on user experience",
+          "Organized section for excursions and activities",
+          "Visual design inspired by Dominican nature (greens, earthy tones, large photos)",
+          "Well-structured information for comfortable reading",
+          "Optimized for mobile devices and tablets",
+          "Fast loading times and lightweight structure",
+          "System prepared to add more routes and content in the future",
+          "Focus on highlighting the company’s safety and professionalism"
+        ]
+      },
+      {
+        "title": "Institutional Website for the Polytechnic",
+        "description": "Digital platform created to strengthen the institution's online presence, showcasing its academic offer, services, and updates in a clear and organized way. The design prioritizes accessibility and a modern visual structure.",
+        "features": [
+          "Modern and responsive institutional design",
+          "Organized academic sections easy to navigate",
+          "Structure optimized for students, teachers, and visitors",
+          "Well-applied visual hierarchy for better readability",
+          "Dynamic sections prepared for news and events",
+          "Architecture designed for low maintenance and easy updates",
+          "Full optimization for mobiles, tablets, and large screens"
+        ]
+      }
+    ],
+    "more": "See more projects",
+    "links": {
+      "repo": "View Repo",
+      "demo": "View Demo"
+    }
   },
 
   "skills": {
@@ -42,38 +80,26 @@
     "tools": "Tools"
   },
 
-  "portfolio": {
-    "title": "Portfolio",
-    "projects": [
-      {
-        "title": "Web Page Enterprise",
-        "description": "Robotfrías is a project that develops complete digital solutions: modern websites, custom software, and creative content for brands. It also integrates an educational platform with courses and classes designed for beginners in the tech world.",
-        "features": [
-          "Modern and responsive web development",
-          "Custom software creation",
-          "Professional digital content production",
-          "Courses and classes for technology beginners",
-          "Integral solutions for small businesses",
-          "Approach that combines technology and education"
-        ],
-        "links": {
-          "repo": "View Repo",
-          "demo": "View Demo"
-        }
-      }
-    ],
-    "more": "See More Projects"
+  "about": {
+    "title": "About Me",
+    "p1": "I have always had a strong <b>interest</b> in technology; I loved learning everything related to computers and software, a passion I inherited from my father.",
+    "p2": "I am currently studying web development, deepening my <b>knowledge</b> and <b>skills</b> in programming and digital design.",
+    "p3": "In the future, I plan to study <b>Software Engineering</b> at ITLA, and I enjoy playing chess to train my mind. You can play with me at <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
+    "hobbiesTitle": "More hobbies?",
+    "hobbies": {
+      "hob1": "Solving Rubik's cubes",
+      "hob2": "Exercising",
+      "hob3": "Learning new things"
+    }
   },
 
   "certificates": {
     "title": "Certifications",
-    "items": [
-      "Diploma in Business Intelligence with Power BI",
-      "Database Administration",
-      "Intermediate Python Programming",
-      "Python Programming Fundamentals",
-      "Introduction to Programming"
-    ],
+    "item1": "Business Intelligence Diploma with Power BI",
+    "item2": "Database Administration",
+    "item3": "Intermediate Python Programming",
+    "item4": "Python Programming Fundamentals",
+    "item5": "Introduction to Programming",
     "button": "View Certificate"
   },
 

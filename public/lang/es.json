@@ -23,30 +23,12 @@
     "p2_part3": "."
   },
 
-  "about": {
-    "title": "Sobre mí",
-    "p1": "Desde siempre he tenido una gran <b>atracción</b> por la tecnología; me encantaba aprender todo lo relacionado con computadoras y software, una pasión que heredé de mi padre.",
-    "p2": "Actualmente estudio desarrollo web, donde profundizo mis conocimientos y <b>habilidades</b> en programación y diseño digital.",
-    "p3": "En el futuro planeo estudiar <b>Ingeniería en Software</b> en el ITLA y, además, me gusta jugar ajedrez para entrenar mi mente. Puedes jugar conmigo en <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
-    "hobbiesTitle": "¿Más hobbies?",
-    "hobbies": [
-      "Resolver cubos Rubik",
-      "Hacer ejercicio",
-      "Aprender cosas nuevas"
-    ]
-  },
-
-  "skills": {
-    "title": "Habilidades",
-    "languages": "Lenguajes y Frameworks",
-    "tools": "Herramientas"
-  },
-
   "portfolio": {
     "title": "Portafolio",
+    "description": "Descripción",
     "projects": [
       {
-        "title": "Página Web Empresarial",
+        "title": "Robotfrías Página Web",
         "description": "Robotfrías es un proyecto que desarrolla soluciones digitales completas: sitios web modernos, software a medida y contenido creativo para marcas. También integra una plataforma educativa con cursos y clases orientadas a quienes desean iniciarse en el mundo tecnológico.",
         "features": [
           "Desarrollo web moderno y responsivo",
@@ -55,25 +37,72 @@
           "Cursos y clases para principiantes en tecnología",
           "Soluciones integrales para emprendedores y pequeñas empresas",
           "Enfoque que combina servicios tecnológicos y formación"
-        ],
-        "links": {
-          "repo": "Ver Repo",
-          "demo": "Ver Demo"
-        }
+        ]
+      },
+      {
+        "title": "En Ruta Ando Sitio Web",
+        "description": "Sitio web moderno desarrollado para una empresa dominicana de ecoturismo. Su objetivo es ofrecer una experiencia digital clara, atractiva y fácil de navegar, permitiendo que los usuarios descubran rutas, excursiones y actividades naturales de forma intuitiva. La web está diseñada para comunicar profesionalidad mientras mantiene una estética fresca y acorde al entorno ecológico.",
+        "features": [
+          "Navegación simple y centrada en la experiencia del usuario",
+          "Sección organizada de excursiones y actividades",
+          "Diseño visual inspirado en naturaleza dominicana (verdes, tonos tierra, fotografías grandes)",
+          "Información bien distribuida y fácil de leer",
+          "Optimización para dispositivos móviles y tablets",
+          "Tiempo de carga rápido y estructura ligera",
+          "Sistema preparado para añadir más rutas y contenido en el futuro",
+          "Enfoque en resaltar seguridad y profesionalidad de la empresa"
+        ]
+      },
+      {
+        "title": "Página Web Institucional",
+        "description": "Plataforma digital creada para fortalecer la presencia institucional del centro, mostrando su oferta académica, servicios y novedades de manera clara y organizada. El diseño prioriza la accesibilidad y la modernidad.",
+        "features": [
+          "Diseño institucional moderno y responsivo",
+          "Secciones académicas organizadas y fáciles de navegar",
+          "Estructura optimizada para estudiantes, docentes y visitantes",
+          "Jerarquía visual bien aplicada para mejorar la lectura",
+          "Secciones dinámicas preparadas para noticias y eventos",
+          "Arquitectura pensada para bajo mantenimiento y fácil actualización",
+          "Optimización completa para móviles, tablets y pantallas grandes"
+        ]
       }
     ],
-    "more": "Ver más proyectos"
+    "more": "Ver más proyectos",
+    "links": {
+    "repo": "Ver Repo",
+    "demo": "Ver Demo"
+    }
   },
+
+
+  "skills": {
+    "title": "Habilidades",
+    "languages": "Lenguajes y Frameworks",
+    "tools": "Herramientas"
+  },
+
+
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Desde siempre he tenido una gran <b>atracción</b> por la tecnología; me encantaba aprender todo lo relacionado con computadoras y software, una pasión que heredé de mi padre.",
+    "p2": "Actualmente estudio desarrollo web, donde profundizo mis conocimientos y <b>habilidades</b> en programación y diseño digital.",
+    "p3": "En el futuro planeo estudiar <b>Ingeniería en Software</b> en el ITLA y, además, me gusta jugar ajedrez para entrenar mi mente. Puedes jugar conmigo en <a href=\"https://www.chess.com\" target=\"_blank\" class=\"about__link\"><b>chess.com</b></a>.",
+    "hobbiesTitle": "¿Más hobbies?",
+    "hobbies": {
+      "hob1": "Resolver cubos Rubik",
+      "hob2": "Hacer ejercicio",
+      "hob3": "Aprender cosas nuevas"
+    }
+  },
+
 
   "certificates": {
     "title": "Certificaciones",
-    "items": [
-      "Diplomado en Inteligencia de Negocios con Power BI",
-      "Administración de Bases de Datos",
-      "Programación con Python Intermedio",
-      "Fundamentos de Programación en Python",
-      "Introducción a la Programación"
-    ],
+    "item1": "Diplomado en Inteligencia de Negocios con Power BI",
+    "item2": "Administración de Bases de Datos",
+    "item3": "Programación con Python Intermedio",
+    "item4": "Fundamentos de Programación en Python",
+    "item5": "Introducción a la Programación",
     "button": "Ver Certificado"
   },
 
