@@ -5,7 +5,7 @@
             <use xlink:href="assets/icons/icon-general.svg#logo-light"></use>
         </svg>
         <div class="top-element__container">
-            <a class="top-element__link" href="index.php" data-section="top-element" data-value="Home">Home</a>
-            <a class="top-element__link" href="contact.php" data-section="top-element" data-value="ContactME">ContactMe</a>
+            <a class="top-element__link" href="index.php" data-i18n="top.home">Home</a>
+            <a class="top-element__link" href="contact.php" data-i18n="top.contact">ContactMe</a>
         </div>
     </section>

@@ -13,6 +13,11 @@
     "download": "Descargar CV"
   },
 
+  "top": {
+    "home":"Inicio",
+    "contact":"Contáctame"
+  },
+
   "presentation": {
     "role": "Desarrollador Full Stack",
     "p1": "Soy un joven dominicano apasionado por la tecnología y el desarrollo web. Estoy en constante aprendizaje, buscando mejorar mis habilidades día a día para crear proyectos cada vez más profesionales y funcionales.",

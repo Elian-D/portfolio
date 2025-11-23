@@ -13,6 +13,11 @@
     "download": "Download CV"
   },
 
+  "top": {
+    "home":"Home",
+    "contact":"Contact Me"
+  },
+
   "presentation": {
     "role": "Full Stack Developer",
     "p1": "I am a young Dominican passionate about technology and web development. I am constantly learning and striving to improve my skills every day to build increasingly professional and functional projects.",
