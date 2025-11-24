@@ -290,6 +290,11 @@
         margin: var(--space-9) 0;
     }
 
+    .portfolio__title {
+        /* Texto */
+        font: 600 var(--font-size-3xl)/2 var(--font-family);
+    }
+
     .presentation__container-text {
         /* Box model */
         max-width: 100%;
@@ -417,6 +422,16 @@
         gap: var(--space-6);
     }
 
+    .skills__title {
+        /* Texto */
+        font: 600 var(--font-size-3xl)/2 var(--font-family);
+    }
+    
+    .skills__subtitle {
+        /* Texto */
+        font: 600 var(--font-size-2xl)/1.5 var(--font-family);
+    }
+        
     .skills__list-elements {
         /* Layout */
         justify-content: space-evenly;
@@ -448,6 +463,13 @@
         padding: var(--space-9) var(--space-4);
     }
 
+    .about__title {
+        /* Texto */
+        color: var(--color-text);
+        font: 520 var(--font-size-3xl)/2 var(--font-family);
+    }
+
+
     .about__text {
         /* Texto */
         font: 400 var(--font-size-base)/1.2 var(--font-family);
@@ -460,6 +482,12 @@
 
     .about__container-image{
         display: none;
+    }
+
+/* ========== SECCIÓN CERTIFICADO ========== */
+
+    .certificates__title {
+        font: 600 var(--font-size-3xl)/2 var(--font-family);
     }
 
     /* Footer */

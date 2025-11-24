@@ -3,7 +3,7 @@
 // ==========================
 const profileImg = document.getElementById("profileImage");
 const originalSrc = "assets/img/Yo-sentado.webp";
-const hoverSrc = "assets/img/Yo-saludando.webp";
+const hoverSrc = "assets/img/yo-saludando.webp";
 
 profileImg.addEventListener("mouseenter", () => {
     // animar suavemente
