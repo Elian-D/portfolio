@@ -162,6 +162,11 @@
     }
 
 
+    .arrow{
+        /* Texto */
+        font: 700 var(--font-size-3xl)/1 var(--font-family);
+    }
+
     /* ========== NAVBAR LATERAL ========== */
     .lateral-navbar {
         /* Posicionamiento */
