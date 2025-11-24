@@ -71,7 +71,7 @@
 
     .portfolio__subtitle {
         /* Texto */
-        font: 600 var(--font-size-3xl)/1 var(--font-family);
+        font: 600 var(--font-size-xl)/1 var(--font-family);
     }
 
     .portfolio__description-container{
