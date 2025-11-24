@@ -498,7 +498,7 @@
     /* Footer */
     .footer__container-links{
         /* Layout */
-        gap: var(--space-3) ;
+        gap: var(--space-1) ;
         margin-bottom: var(--space-1) ;
     }
 
